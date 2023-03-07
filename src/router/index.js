@@ -14,21 +14,21 @@ const router = createRouter({
       component: Home
     },
 		{ path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
-    {
-      path: '/invite/:id',
-      name: 'invite',
-      component: Invite
-    },
-    {
-      path: '/more',
-      name: 'more',
-      component: More
-    },
-    {
-      path: '/whoiscoming',
-      name: 'coming',
-      component: Coming
-    }
+    // {
+    //   path: '/invite/:id',
+    //   name: 'invite',
+    //   component: Invite
+    // },
+    // {
+    //   path: '/more',
+    //   name: 'more',
+    //   component: More
+    // },
+    // {
+    //   path: '/whoiscoming',
+    //   name: 'coming',
+    //   component: Coming
+    // }
   ]
 })
 
